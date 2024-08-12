@@ -27,7 +27,7 @@ Partial Class Form1
         lblIdpengguna = New Label()
         lblKatalaluan = New Label()
         txtKatalaluan = New TextBox()
-        btnLogin = New Button()
+        BtnLogin = New Button()
         SuspendLayout()
         ' 
         ' lblLogmasuk
@@ -71,21 +71,21 @@ Partial Class Form1
         txtKatalaluan.Size = New Size(189, 27)
         txtKatalaluan.TabIndex = 4
         ' 
-        ' btnLogin
+        ' BtnLogin
         ' 
-        btnLogin.Location = New Point(150, 194)
-        btnLogin.Name = "btnLogin"
-        btnLogin.Size = New Size(94, 29)
-        btnLogin.TabIndex = 5
-        btnLogin.Text = "LOGIN"
-        btnLogin.UseVisualStyleBackColor = True
+        BtnLogin.Location = New Point(150, 194)
+        BtnLogin.Name = "BtnLogin"
+        BtnLogin.Size = New Size(94, 29)
+        BtnLogin.TabIndex = 5
+        BtnLogin.Text = "LOGIN"
+        BtnLogin.UseVisualStyleBackColor = True
         ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(394, 256)
-        Controls.Add(btnLogin)
+        Controls.Add(BtnLogin)
         Controls.Add(txtKatalaluan)
         Controls.Add(lblKatalaluan)
         Controls.Add(lblIdpengguna)
@@ -102,6 +102,6 @@ Partial Class Form1
     Friend WithEvents lblIdpengguna As Label
     Friend WithEvents lblKatalaluan As Label
     Friend WithEvents txtKatalaluan As TextBox
-    Friend WithEvents btnLogin As Button
+    Friend WithEvents BtnLogin As Button
 
 End Class
